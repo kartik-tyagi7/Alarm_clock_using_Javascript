@@ -1,0 +1,89 @@
+body{
+  background-image: url("https://img.freepik.com/premium-photo/alarm-clock-green-background-generative-ai_190575-167.jpg");
+
+  /* height: 100%;  */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+    border: 5px solid #1e866c;
+    border-radius: 30px;
+    backdrop-filter: blur(7px);
+    height: 400px;
+    width: 400px;
+    margin:auto;
+    margin-top:160px;
+    box-shadow: 1px 1px 136px 39px rgba(0,0,0,0.6), 0px 45px 26px 0px rgba(0,0,0,0.14);
+}
+
+#alarmClock{
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    padding:10px;
+    
+}
+
+#currentTime{
+    /* border: 2px solid black; */
+    font-family: Arial, sans-serif;
+    font-size: 58px;
+    font-weight:bold;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+#setAlarm{
+    /* border:2px solid black; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+#appt-time{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    border: none;
+    background-color: #ffdbc7;
+    color:#463225;
+    height: 50px;
+    width: 220px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#setAlarmBtnDiv{
+    /* border:2px solid black; */
+    display: flex; 
+    justify-content:center;
+    align-items:center;
+}
+
+
+.buttons{
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 25px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0e624d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #0a4334;
+    /* opacity: 0.8; */
+    transform: scale(1.05);
+    transition: .3s;
+}

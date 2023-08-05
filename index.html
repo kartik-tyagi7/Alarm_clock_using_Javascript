@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="alarmClock">
+            <img src="https://d1k5j68ob7clqb.cloudfront.net/processed/thumb/Pv689Z326jjzOj9wXB.png" height="80px"
+                width="80px" alt="Clock">
+        </div>
+        <div id="currentTime"></div>
+        <div id="setAlarm">
+            <!-- <label for="appt">Choose a time for your meeting:</label> -->
+            <!-- <input id="appt-time" type="time" name="appt-time" /> -->
+            <input id="appt-time" type="time" name="appt-time" step="2" />
+        </div>
+
+        <div id="setAlarmBtnDiv" class= "abc">
+            <button class="buttons" id="setAlarmButton" onclick="calculateSeconds()">Set alarm</button>
+            <button class="buttons" id="setAlarmButton" onclick="stopAlarm()">Stop</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
